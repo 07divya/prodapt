@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodapt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="Css.css" />
+<style>
+div.a {
+  border-style: solid;
+  border-color: #0000ff;
+}
+   
+    </style>
+</head>
+<body>
+
+    
+
+
+    <div class="jumbotron text-center">
+        <h1 style="color:crimson">Prodapt</h1>
+        <h4 style="color:DodgerBlue;">Chase Extraordinary</h4>
+
+       
+              
+        
+        <a href="Home.html" data-toggle="popover" title="Welcome Home">Home</a>&nbsp;
+        <a href="Product.html" data-toggle="popover" title="Products">Products</a>&nbsp;
+        <a href="Login.html" data-toggle="popover" title="Login Here">Login</a>&nbsp;
+        
+        <a href="Register.html" data-toggle="popover" title="Register Here">Register</a>&nbsp;
+        
+        <a href="About.html" data-toggle="popover" title="About Prodapt">AboutUs</a>&nbsp;
+        <a href="contact.html" data-toggle="popover" title="Contact Here">ContactUs</a>
+   
+        
+        </div>
+        <marquee><h1><b>Powering Global Telecom</b></h1></marquee>
+        <img src="R.png" width="505" height="350" style="float:rigt">
+        <img src="C.jpg" width="505" height="350" style="float:left">
+        <img src="P.png" width="505" height="350"  style="float:left">
+</body>
+</html>
