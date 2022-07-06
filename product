@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Aboutus-Upgrade</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        img.up{
+            width: 5%;
+            height: 5%;
+        }
+        img.grp{
+            text-align: left;
+            width: 30%;
+        }
+        .p1{
+            text-align: justify;
+        }
+        img.g{
+            width: 30%;
+        }
+        img.gp{
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <h1><img src='D:\JAVA_DIGITAL\Java\Project\Images\image1.jfif' class="up">UPGRADE</h1>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Upgrade</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="Homeact.html">Home</a></li>
+                    <li><a href="Aboutact.html">About Us</a></li>
+                    <li><a href="Loginact.html">Login</a></li>
+                    <li><a href="Registrationact.html">Registration</a></li>
+                    <li><a href="Productact.html">Product</a></li>
+                    <li><a href="contactact.html">Contact Us</a></li>
+    
+                </ul>
+            </div>
+        </nav>
+        <h1><strong>Product</strong></h1>
+        <hr>
+        <h3><b><u>1. Investment</u></b></h3>
+        <p class="p1">Investment is the dedication of an asset to attain an increase in value over a period of time. Investment requires a sacrifice of some present asset, such as time, money, or effort.In finance, the purpose of investing is to generate a return from the invested asset. The return may consist of a gain (profit) or a loss realized from the sale of a property or an investment, unrealized capital appreciation (or depreciation), or investment income such as dividends, interest, or rental income, or a combination of capital gain and income. The return may also include currency gains or losses due to changes in the foreign currency exchange rates.
+            
+            Investors generally expect higher returns from riskier investments. When a low-risk investment is made, the return is also generally low. Similarly, high risk comes with a chance of high returns.
+            
+            Investors, particularly novices, are often advised to diversify their portfolio. Diversification has the statistical effect of reducing overall risk.</p><br>          
+            <img src="D:\JAVA_DIGITAL\Java\Project\Images\actimg12.jfif" class="grp">&nbsp;
+            <img src="D:\JAVA_DIGITAL\Java\Project\Images\actimg6.jfif" class="gr">
+            <h3><b><u>2. Time</u></b></h3>
+            <p class="p1">Working time is the period of time that a person spends at paid labor. Unpaid labor such as personal housework or caring for children or pets is not considered part of the working week.
+
+                Many countries regulate the work week by law, such as stipulating minimum daily rest periods, annual holidays, and a maximum number of working hours per week. Working time may vary from person to person, often depending on economic conditions, location, culture, lifestyle choice, and the profitability of the individual's livelihood. For example, someone who is supporting children and paying a large mortgage might need to work more hours to meet basic costs of living than someone of the same earning power with lower housing costs</p><br> 
+                <img src="D:\JAVA_DIGITAL\Java\Project\Images\actimg13.jpg" class="g">&nbsp;
+            <img src="D:\JAVA_DIGITAL\Java\Project\Images\actimg14.jpg" class="gp">
+</body>
+</html>
