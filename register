@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Aboutus-Upgrade</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        img.up{
+            width: 5%;
+            height: 5%;
+        }
+    </style>
+</head>
+<body>
+    <h1><img src='D:\JAVA_DIGITAL\Java\Project\Images\image1.jfif' class="up">UPGRADE</h1>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Upgrade</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="Homeact.html">Home</a></li>
+                    <li><a href="Aboutact.html">About Us</a></li>
+                    <li><a href="Loginact.html">Login</a></li>
+                    <li><a href="Registrationact.html">Registration</a></li>
+                    <li><a href="Productact.html">Product</a></li>
+                    <li><a href="contactact.html">Contact Us</a></li>
+    
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <form action="Home.html" method="post"></form>
+            <h1>Create Account</h1>
+            <hr>
+          <table class="table table-bordered table table-hover table-responsive">
+              <tr>
+          <td><label for="fname">First Name</label><br></td>
+          <td><input type="text" id="fname" name="fname" placeholder="First Name" required><br></td>
+        </tr>
+        <tr>
+            <td><label for="lname">Last Name</label><br></td>
+            <td><input type="text" id="lname" name="lname" placeholder="Last Name" required><br></td>
+        </tr>
+        <tr>
+            <td><label for="Age">Age</label><br></td>
+            <td><input type="number" id="age" name="pass" min="21" placeholder="Age" required>
+        </tr>
+        <tr>
+            <td><label for="username">User Name</label><br></td>
+            <td><input type="text" id="username" name="username" placeholder="Username" required><br></td>
+        </tr>
+        <tr>
+            <td><label for="pass">Password</label><br></td>
+            <td><input type="password" id="pass" name="pass" pattern="(?=.*\D)(?=.*[a-z])(?=.*[A-Z]).{8,}"title="Must contain atleast one lowercase,one uppercase,one number and atleast 8 or more characters" placeholder="Password" required><br></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label><br></td>
+            <td><input type="email" id="email" name="email" placeholder="Email" required><br></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender</label></td>
+        </tr>
+        <tr>
+            <td><input type="radio" checked=true name="user_gender">
+            <label for="male">Male</label><br></td>
+            <br>
+            <td><input type="radio"  name="user_gender">
+            <label for="female">Female</label><br></td>
+            <td><input type="radio" name="user_gender">
+            <label for="not">Not Intrested to Revel</label><br></td>
+        </tr>
+        <tr>
+            <td><label for="country">Country</label></td>
+
+            <td><select id="country" name="country" required>
+
+                <option value="India">India</option>
+
+                <option value="Canada">Canada</option>
+
+                <option value="USA">USA</option>
+
+                <option value="Japan">JAPAN</option>
+
+            </select></td>
+        </tr>
+        
+        </table>
+        <div class="progress">
+            <div class="progress-bar" role="progress-bar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+            70%
+            </div>
+        </div>
+        <hr>
+        <p style="text-align: center;">By creating account you are agreeing to our <a href="">Terms and Conditions</a>.</p>
+        <div style="text-align: center;">
+        <button type="submit" class="registration" style="text-align: center;">Submit</button>
+        </div>
+        <div class="container signin" style="text-align: center;">
+            <p>If you have already Account? <a href="Login.html">signin</a>.</p>
+        </div>
+
+    </form>
+    <footer><ul class="pager">
+        <li><a href="Home.html">Previous</a></li>
+        <li><a href="Main.html">Next</a></li>
+    </ul></footer>
+</body>
+</html>
