@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Aboutus-Upgrade</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        img.up{
+            width: 5%;
+            height: 5%;
+        }
+        img.mass{
+            width: 30%;
+        }
+        img.mas{
+            width: 30%;
+        }
+        img.ma{
+            width: 30%;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1><img src='D:\JAVA_DIGITAL\Java\Project\Images\image1.jfif' class="up">UPGRADE</h1>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Upgrade</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="Homeact.html">Home</a></li>
+                    <li><a href="Aboutact.html">About Us</a></li>
+                    <li><a href="Loginact.html">Login</a></li>
+                    <li><a href="Registrationact.html">Registration</a></li>
+                    <li><a href="Productact.html">Product</a></li>
+                    <li><a href="contactact.html">Contact Us</a></li>
+    
+                </ul>
+            </div>
+        </nav>
+        <h1><b>About Us</b></h1>
+        <p>Employment is a relationship between two parties regulating the provision of paid labour services. Usually based on a contract, one party, the employer, which might be a corporation, a not-for-profit organization, a co-operative, or any other entity, pays the other, the employee, in return for carrying out assigned work.
+            Employees work in return for wages, which can be paid on the basis of an hourly rate, by piecework or an annual salary, depending on the type of work an employee does, the prevailing conditions of the sector and the bargaining power between the parties. Employees in some sectors may receive gratuities, bonus payments or stock options. 
+            In some types of employment, employees may receive benefits in addition to payment. Benefits may include health insurance, housing, disability insurance. Employment is typically governed by employment laws, organisation or legal contracts.</p>
+        <h3><u>Employer-Worker relationship</u></h3>
+        <hr>
+        <p>Employer and managerial control within an organization rests at many levels and has important implications for staff and productivity alike, with control forming the fundamental link between desired outcomes and actual processes. Employers must balance interests such as decreasing wage constraints with a maximization of labor productivity in order to achieve a profitable and productive employment relationship.</p>
+        <img src="D:\JAVA_DIGITAL\Java\Project\Images\actimg9.jfif" class="mass">
+        <img src="D:\JAVA_DIGITAL\Java\Project\Images\actimg10.jfif" class="mas">
+        <img src="D:\JAVA_DIGITAL\Java\Project\Images\actimg11.jfif" class="ma">
+        <footer>@copyright-Upgrade</footer>
+</body>
+</html>
